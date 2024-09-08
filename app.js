@@ -18,7 +18,7 @@ app.use(cors({
 }));
 
 // Connect to MongoDB database
-mongoose.connect('mongodb://localhost:27017/mydatabase')
+mongoose.connect('mongodb+srv://surendhiran:13062000lachsm@cluster0.tznw8wo.mongodb.net/mydatabase')
     .then(() => {
         console.log('Connected to MongoDB');
     })
